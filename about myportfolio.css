@@ -1,0 +1,87 @@
+*{
+    margin-left: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+.background{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #1234;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+/*.aboutme{
+    margin-left: 8%;
+    margin-left: 15%;
+    float: left;
+    
+}*/
+.aboutme h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+span{
+    color: hotpink;
+}
+.aboutme p{
+    color: black;
+    font-size: 150%;
+    word-spacing: 2px;
+    line-height: 1.5;
+    
+ 
+}
+.aboutme a{
+    background-color: aqua;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+img{
+    float:right;
+    padding-bottom: 10px;
+}
+.aboutme{
+    /*margin-left: 8%;*/
+    margin-left: 15%;
+    width: 100%;
+    overflow: hidden;
+}
+.right-image{
+    float: right;
+    /*margin-left: 10px;*/
+    width: 20%;
+    height: 500px;
+    padding-right: 350px;
+    /*border: 8px solid hotpink;*/
+}
+p{
+    width: 50%;
+    text-align: justify;
+    text-align-last: justify ;
+    text-justify: inter-word;
+    letter-spacing: 2px;
+    
+}
